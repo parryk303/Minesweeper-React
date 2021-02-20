@@ -1,5 +1,5 @@
 {
-  "name": "best",
+  "name": "app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,22 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "MiniApps fullstack practice #4. Use facebook/create-react-app to create a full-stack implementation of Minesweeper.",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/parryk303/Minesweeper-React.git"
-  },
-  "keywords": [
-    "Minesweeper",
-    "React"
-  ],
-  "author": "Kyle Parry",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/parryk303/Minesweeper-React/issues"
-  },
-  "homepage": "https://github.com/parryk303/Minesweeper-React#readme"
+  }
 }

@@ -1,14 +1,22 @@
-#title {
+body {
+  background-image: url("https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+#Title {
   align-content: center;
+  font-size: 60px;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .container {
-  width: 500px;
+  width: 900px;
+  margin-top: 20px;
 }
 
 .grid {
-  height: 400px;
-  width: 400px;
+  height: 800px;
+  width: 800px;
   display: flex;
   flex-wrap: wrap;
   background-color: #dcd6bc;
@@ -25,8 +33,8 @@ div {
 
 }
 .valid {
-  height: 40px;
-  width: 40px;
+  height: 80px;
+  width: 80px;
   border: 5px solid;
   border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
   box-sizing: border-box;

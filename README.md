@@ -23,7 +23,7 @@ The last rule winds up uncovering large areas of the board in one turn. This hel
 # Set Up
 > Run the following commands from the root of this repository
 ```
-npm i
+cd app
 ```
 ```
 npm run build
