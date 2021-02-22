@@ -10,15 +10,43 @@ class App extends Component {
       width: 100,
       bombAmount: 20,
       squares: [],
-      isChecked: false
+      isChecked: false,
+      isGameOver: false
     }
     this.check = this.check.bind(this);
   }
 
-  check() {
+  check(e) {
+    console.log(e.target.class);
     this.setState({
       isChecked: !this.isChecked
     })
+    if (e.target.class === 'bomb') {
+      this.setState({
+        isGameOver: true
+      })
+    }
+
+  //   let currentId = e.target.id.value
+  //   if (isGameOver) return
+  //   if (square.classList.contains('checked') || square.classList.contains('flag')) return
+  //   if (square.classList.contains('bomb')) {
+  //     gameOver(square)
+  //   } else {
+  //     let total = square.getAttribute('data')
+  //     if (total !=0) {
+  //       square.classList.add('checked')
+  //       if (total == 1) square.classList.add('one')
+  //       if (total == 2) square.classList.add('two')
+  //       if (total == 3) square.classList.add('three')
+  //       if (total == 4) square.classList.add('four')
+  //       square.innerHTML = total
+  //       return
+  //     }
+  //     checkSquare(square, currentId)
+  //   }
+  //   square.classList.add('checked')
+  // }
   }
 
   render() {
